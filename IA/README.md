@@ -4,5 +4,5 @@
 
 [Material de aula](https://www.ppgia.pucpr.br/~scalabrin/IA)
 
-usuario: ia
+usuario: ia\
 senha: ia@ppgia
