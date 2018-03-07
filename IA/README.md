@@ -6,3 +6,14 @@
 
 username: ia\
 password: ia@ppgia
+
+## Pesquisa
+
+Parser baseado em caso - Roger Schank\
+
+DMAP - (Direct Memory Acces Package) implementa o Parser baseado em caso
+11 primitivas semânticas
+
+PTrans(__________________) Estrutura de uma frase\
+    Caso tenha um verbo da lista interna, verifica a estrutura do verbo\
+    (_,_,_,_,_,_,_) => Tendo a estrutura do verbo executa uma ação
