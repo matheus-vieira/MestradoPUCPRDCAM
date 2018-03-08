@@ -8,9 +8,7 @@
 
 [Eureka](https://eureka.pucpr.br)
 
-Mineração de Dados
-
-Aula dia 08/03/2018
+## Aula dia 08/03/2018
 
 ---
 
