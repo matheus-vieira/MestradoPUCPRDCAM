@@ -1,4 +1,4 @@
-# Sobre a Disciplina de Mineraçao de Dados
+ Sobre a Disciplina de Mineraçao de Dados
 
 ## Professor Júlio Cesar Nievola
 
@@ -60,3 +60,42 @@ Conhecimento são padrões de comportamento\
 Pré-processamento ->Processamento -> Transformação => Mineração de dados -> Avaliação dos modelos\
 O processo acima é chamado de Descoberta de Conhecimento a Partir dos Dados.\
 A mineração de dados é apenas um passo do processo.\
+
+### O que (não) é Mineração de Dados
+
+ O que não é Mineração de Dados
+* Buscar um telefone em um catálogo
+* Perguntar a um motor de busca por informação sobre "Amazon"
+
+### Origens da Mineração
+
+A mineração de dados é uma mistura de:
+
+* Sistemas,
+* bancos de dados,
+* estatística/IA,
+* Aprendizado de Máquina,
+* Reconhecimento de Padrões
+
+### Tarefas de Mineração de Dados
+
+* Métodos Preditivos
+  * Usa algumas variáveis para prever valores desconhecidos ou puturos de outras variáveis
+    * Classificação
+    * Regressão
+    * Detecção de Desvios
+* Métodos Descritivos
+  * Encontra padrões compreensíveis por humanos para descrever dados
+    * Agrupamento
+    * Descoberta de Regras de Associação
+    * Descoberta de Padrões Sequenciais
+
+
+#### Classificação
+
+* Dado um conjunto de registros (conjunto de treinamento)
+  * Cada registro contém um conjunto de *atributos*, um dos atributos é a *classe*.
+* Encontrar um modelo para o atributo classe como uma função dos valores dos outros atributos.
+* Objetivo: a registros previamente não-usados deve ser assinalada uma classe tão precisamente quanto possível.
+  * Um conjunto de testes é usando para determinar uma precisão do modelo. Usualmente, o conjunto de ddos é dividido em conjunto de treinamento e conjunto de testes, sendo o conjunto de treinamento usad para construir o modelo e o conjunto de testes usado para validá-lo
+
