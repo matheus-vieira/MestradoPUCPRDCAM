@@ -6,11 +6,12 @@
 
 ## Material
 
-[Eureka](https://eureka.pucpr.br)\
+[Eureka](https://eureka.pucpr.br)
 
 Mineração de Dados
 
 Aula dia 08/03/2018
+
 ---
 
 ### Aprendizado de Máquina
@@ -23,8 +24,7 @@ Mineração de dados é aprendizado de máquina com alguns requisitos a mais.
 Resolver o problema e passar para um humano tomar decisão.\
 Modelos auto explicativos, para facilitar a tomada de decisão.\
 \
-Premisas:
+Premisas da Mineração de Dados:
 
 * Compreensível pelo ser humano
 * Tem que descobrir algo novo.
-
