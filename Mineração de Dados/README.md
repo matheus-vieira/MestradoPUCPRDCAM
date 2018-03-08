@@ -14,5 +14,4 @@ Mineração de Dados
 
 Trabalhar com dados, prever dados a partir de um histórico e novas informações.\
 Rearranjar/reorganização de dados\
-Buscar padrões o que existe de comum.\
-
+Buscar padrões o que existe de comum.
