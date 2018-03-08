@@ -8,7 +8,7 @@
 
 [Eureka](https://eureka.pucpr.br)
 
-## Aula dia 08/03/2018
+## 'Aula dia 08/03/2018
 
 ---
 
@@ -26,3 +26,9 @@ Premisas da Mineração de Dados:
 
 * Compreensível pelo ser humano
 * Tem que descobrir algo novo.
+
+Requisito obrigatório:
+
+* Ter dados
+
+Verificar a qualidade dos dados.
