@@ -101,7 +101,7 @@ Como representar em formato de tabela, cuidado para não perder a sequência
 
 ## Dados Químicos
 
-* Molécula de Benzeno: C<sub>6</sub><sub>H6</sub> H~2~O C~6H~6
+* Molécula de Benzeno: C<sub>6</sub><sub>H6</sub>
 
 ## Dados Ordenados
 
@@ -266,3 +266,92 @@ No final o que importa é como mostrar essa informação para o usuário!!!
 Agrupar em conjuntos de faixas
 
 ### Transformação de Atributos
+
+* Uma função que mapeia o conjunto inteiro de valores de um dado atributo para um novo conjunto de valores de substituição tal que cada valor antigo pode ser identificado como um dos novos valores
+ * Funções simples: x<sup>k</sup>, log(x), e<sup>x</sup>, |X|
+ * Padronização e Normalização
+
+#### Similariadade/Dissimilaridade para Atributos Simples
+
+_p_ e _q_ são os valores dos atributos para dois objetos de dados
+
+#### Distância Euclidiana
+
+* Fórmula da distância euclidiana
+* Padronização é necessária se as esccalas diferemm
+
+#### Distância de Minkowski
+
+* Fórmula da distância Minkowski é uma generalização da distância Euclidiana
+
+#### Propriedades Comuns de uma Distância
+
+Existem propriedades comuns...
+
+#### Similaridade entre Vetores Binários
+
+Se comprou algo ou não...Pessoas com gostos semelhantes
+P<sub>1</sub> 1 1 1 0 1 1 0
+P<sub>2</sub> 1 1 0 0 1 1 0
+
+Se comprou algo ou não...Pessoas com gostos diferentes
+P<sub>1</sub> 1 1 1 0 1 1 0
+P<sub>2</sub> 0 0 0 0 0 0 1
+
+* Coeficientes Simple Matching e Jaccard
+ * Verificar a similaridades
+
+#### Similaridade dos Cossenos
+
+cos(d<sub>d1</sub>, d<sub>d2</sub>) = (d<sub>d1</sub>.d<sub>d2</sub>)/||<sub>d1</sub>|||.|d<sub>2</sub>||
+
+#### Coeficiente de Jaccard (Tanimoto)
+
+* Variação de Jaccard para atributos contínuos ou contáveis
+
+#### Correlação
+
+* Correlação linear mede o relacionamento linear entre objetos
+
+### Densidade
+
+Agrupamento baseado em densidade, não em distância
+
+#### Densidade Euclidiana - baseada em células
+
+Dividir baseado em um retãngulo em um plano cartesiano
+
+## O que é Exporação de Dados
+
+Uma exploração preliminar dos dados para compreender melhor suas características
+
+* Motivações-chave da exploração de dados incluem
+ * Ajudar na seleção da técnica correta para pré-processamento ou análise
+ * Fazer uso das habilidades humandas de reconhecimento de padrões
+
+### Técnicas usadas na Exploração de Dados
+
+OLAP
+
+## Conjunto de dados Iris
+
+Tentar reconhecer o tipo da flor
+
+## Estatística Sumária
+
+Posição e Dispersão
+
+Trocar os dados por um único valor
+
+Quão dispersos s dados estão a um determinado ponto
+
+### Frequancia e Moda
+
+* Frequencia - porcentagem de tempo em que o valor ocorre
+* Moda - Valor mais frequente
+
+Utilizados em dados categóricos
+
+### Percentil
+
+Amostra de um conjunto de dados
