@@ -148,3 +148,73 @@ Valor de uma variável, inesperado, que está muito fora do padrão
 
 * Outliers são objetos de dados com características que são consideravelmente diferentes da maioria dos objetos de dados no conjunto de dados
 
+### Valores Faltantes
+
+
+* Razões para valores faltantes
+ * Informação não coletada
+  * pessoas não fornecem sua idade e peso
+ * Atribusots podem ser aplicáveis a todos os casos
+  * salário anual não aplicável a crianças
+* Manipulando valores faltantes
+ * Eliminar objetos de dados
+ * Estimar alores faltantes
+ * Ignorar valores faltantes durante análise
+ * Substituir por todos os valores possível (poderados por suas probabilidades)
+
+### Dados Duplicados
+
+* conjuntos de dados pode incluir objetos de dados que são cuplicatas, ou quase duplicadas de outros
+ * Grade problema quando unindo dados de fontes heterogêneas
+ * Exemplos
+  * Mesma pessoa com múltiplos endereços de e-mail
+ * Limpeza dos dados
+  * Processo de trabalho com dados duplicados
+
+Cuidar com repetição, podem ser dados duplicados.
+
+### Agragação
+
+* Combinar dois ou mais atributos (ou objetos) em um único atributo (ou objeto)
+* Finalidade
+ * Redução de dados
+  * Reduzir o número de atributos ou objetos
+ * Alteração de escala
+  * Cidaddes agregadas em regiões, estados, países, etc.
+ * Dados mais "estáveis"
+  * Dados agregados tendem a ter menos variabilidade
+
+### Amostragem
+
+* Amostragem é a principal técnica empregada na seleção de dados
+ * Usada frequentemente tanto para investigação preliminar dos dados
+
+#### Tipos de amostragem
+
+ * Amostragem simples aleatória
+ * Amostragem sem reposição
+  * Não pode ser escolhido novamente
+ * Amostragem com reposição
+  * Pode ser escolhido novamente
+ * Amostragem estratificadad
+  * Diivide os dados em partições; retira então amostras aleatórias de cada uma das partições
+  * A cada nova amostragem, manter as propriedades
+
+### Maldição da Dimensionalidade
+
+* Quando a dimensionalidade aumenta, os dados tornam-se muitos esparsos, no espaço que ocupam
+* Definições de densidade e distância entre pontos, que são críticas para agrupamento e detecção de outliers, passam a ter menos significado
+
+Difícil conseguir dados por causa dessa maldição
+
+### Redução da Dimensionalidade
+
+* Finalidade
+ * Reduzir a maldição da dimensionalidade
+ * Reduz a quantidade de tempo e memória necessárias pelos algorítmos de mineração de dados
+ * Permitir que os dados sejam mais facilmente visualizados
+ * Ajudar a eliminar características irrelavantes ou a reduzir o ruído
+* Técnicas
+ * Análise de Componentes Principais - PCA
+ * Singular Value Decomposition - SVD
+ * Outros: técnicas supervisionadas e não-lineares
