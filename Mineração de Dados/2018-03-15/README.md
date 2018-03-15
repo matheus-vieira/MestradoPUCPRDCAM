@@ -218,3 +218,51 @@ Difícil conseguir dados por causa dessa maldição
  * Análise de Componentes Principais - PCA
  * Singular Value Decomposition - SVD
  * Outros: técnicas supervisionadas e não-lineares
+
+### Seleção de Subconjuntos de Características
+
+* Outra forma de reduzir a dimensionalidade de dados
+* Características redundantes
+ * Duplicam muita ou toda a informação contida em um ou mais atributos
+ * Exemplo: preço de venda de um prouuto e a quantidade de taxas de venda pagas
+* Características Irrelevantes
+ * Não conteém informação que seja útil para a tarefa de mineração de daos sendo executada
+ * Exemplo: ID do estudate é frequentemente irrelevante na tarefa de prever o seu desempenho
+* Técnicas
+ * Abordadgem da força bruta
+  * Tenta todos os subconjuntos possíveis de características como entrada de mineração de dados
+ * Abordadgem embutidas
+  * Seleção de características ocorre naturalmente como parte do algorítmo de mineração de dados
+ * Abordadgem filtro
+  * Características são selecionadas antes que o algorítmo de mineração de dados seja executado
+ * Abordadgem wrapper
+  * Usa o algorítmo de mineração de dados como uma caixa preta para encontrar o melhor subconjunto de atributos
+
+### Criação de Caraterísticas
+
+* Cria novos atributos que podem capturar informação importante em um conjunto de dados muito mais eficiente que os atributos originais
+* Três metodologias gerais
+ * Extração de características
+  * específicas do domínio
+ * Mapeamento de dados para o novo espaço
+ * Construção de características
+  * conbinando características
+
+### Mapeando Dados para um Novo Espaço
+
+* Transformada de Fourier
+* Transformada Wavelet
+
+### Discretização Usando Rótulos das Classes
+
+* Abordagem baseada em Entropia
+
+Pega variável contínua em discreta, ou seja, em faixa de valores
+
+No final o que importa é como mostrar essa informação para o usuário!!!
+
+### Discretização sem Ssar Rótulos das Classes
+
+Agrupar em conjuntos de faixas
+
+### Transformação de Atributos
