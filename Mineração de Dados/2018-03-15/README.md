@@ -2,6 +2,10 @@
 
 Informações anotadas no dia
 
+## ESTUDAR CLASSIFICAÇÔES!!!!!!!!
+
+[Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+
 ## O que são dados
 
 * Coleção de dados e seus atributos
