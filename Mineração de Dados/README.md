@@ -4,6 +4,12 @@
 
 [Email do Professor](mailto:nievola@ppgia.pucpr.br)
 
+### Trabalho e provas
+
+* Avaliação dia 26/04/2018
+
+* Apresentação do Trabalho na semana seguinte.
+
 ## Material
 
 [Eureka](https://eureka.pucpr.br)
